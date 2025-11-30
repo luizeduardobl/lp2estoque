@@ -22,7 +22,9 @@ Execute a classe
 A API iniciará na porta padrão: http://localhost:8080/produtos
 
 Na porta 8080/produtos estarão listados todos os produtos cadastrados pelo lado do cliente no JavaFX. Caso deseje ver apenas um único produto cadastrado, é possível pesquisar pelo ID.
+
 Para isto, basta digitar, por exemplo, para buscar o produto com ID 1: http://localhost:8080/produtos/1 
+
 O ID é atribuido pela ordem cadastrada, portanto o item que receberá o ID 1 será o primeiro cadastrado, e assim sucessivamente.
 
 2) Rodando o cliente JavaFX
