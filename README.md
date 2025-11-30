@@ -15,8 +15,8 @@ Como executar
 
 Abra o projeto na IDE
 Vá até: ProjetoEstoque/src/main/java/com/estoque/api/ApiApplication.java
-Execute a classe
-A API iniciará na porta padrão: http://localhost:8080/produtos
+
+Ao executar a classe, a API iniciará na porta padrão: http://localhost:8080/produtos
 
 Na porta 8080/produtos estarão listados todos os produtos cadastrados pelo lado do cliente no JavaFX. Caso deseje ver apenas um único produto cadastrado, é possível pesquisar pelo ID.
 
