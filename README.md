@@ -9,9 +9,6 @@ Tecnologias utilizadas:
 - JavaFX
 - Maven
 
-Estrutura do projeto
-ProjetoEstoque/      -> API (Spring Boot)
-cliente-estoque/     -> Interface gráfica em JavaFX
 
 Como executar
 1) Rodando o backend (API)
