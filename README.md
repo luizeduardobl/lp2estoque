@@ -24,7 +24,7 @@ Para isto, basta digitar, por exemplo, para buscar o produto com ID 1: http://lo
 
 O ID é atribuido pela ordem cadastrada, portanto o item que receberá o ID 1 será o primeiro cadastrado, e assim sucessivamente.
 
-2) Rodando o cliente JavaFX
+2) Rodando o cliente JavaFX (É importante que antes de rodar o cliente JavaFX a API já esteja em execução)
    
 Acesse o módulo: cliente-estoque/src/main/java/com/estoque/Launcher.java
 Execute a classe
