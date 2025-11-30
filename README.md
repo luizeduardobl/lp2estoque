@@ -22,6 +22,7 @@ Execute a classe
 A API iniciará na porta padrão: http://localhost:8080/produtos
 
 2) Rodando o cliente JavaFX
+   
 Acesse o módulo: cliente-estoque/src/main/java/com/estoque/Launcher.java
 Execute a classe
 A interface será aberta permitindo cadastro de produtos
