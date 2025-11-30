@@ -16,11 +16,31 @@ public class ProdutoRepository {
         return bancoDeDados;
     }
 
+    public Produto findById(Long id) {
+        return bancoDeDados.stream()
+                .filter(p -> p.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+    }
+
     public Produto save(Produto produto) {
         if (produto.getId() == null) {
+
             produto.setId(geradorId.getAndIncrement());
+            bancoDeDados.add(produto);
+        } else {
+
+            Produto existente = findById(produto.getId());
+            if (existente != null) {
+                existente.setNome(produto.getNome());
+                existente.setQuantidade(produto.getQuantidade());
+                existente.setPreco(produto.getPreco());
+            }
         }
-        bancoDeDados.add(produto);
         return produto;
+    }
+
+    public boolean deleteById(Long id) {
+        return bancoDeDados.removeIf(p -> p.getId().equals(id));
     }
 }

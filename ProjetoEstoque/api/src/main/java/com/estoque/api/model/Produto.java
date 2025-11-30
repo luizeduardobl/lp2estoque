@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data // O Lombok cria os Getters e Setters automaticamente
+@Data 
 @AllArgsConstructor
 @NoArgsConstructor
 public class Produto {
