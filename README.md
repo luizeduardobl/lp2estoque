@@ -27,5 +27,5 @@ O ID é atribuido pela ordem cadastrada, portanto o item que receberá o ID 1 se
 2) Rodando o cliente JavaFX (É importante que antes de rodar o cliente JavaFX a API já esteja em execução)
    
 Acesse o módulo: cliente-estoque/src/main/java/com/estoque/Launcher.java
-Execute a classe
-A interface será aberta permitindo cadastro de produtos
+
+Ao executar a classe, a interface será aberta permitindo cadastro de produtos.
